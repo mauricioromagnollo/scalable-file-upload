@@ -13,6 +13,8 @@
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "pino": "^6.11.2",
+    "pino-pretty": "^4.7.1",
     "socket.io": "3.0"
   }
 }
