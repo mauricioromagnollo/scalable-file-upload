@@ -14,7 +14,7 @@ class UploadHandler {
   }
 
   registerEvents(headers, onFinish) {
-    const busboy = new Busboy({ header });
+    const busboy = new Busboy({ headers });
 
     busboy.on('file', this.#onFile.bind(this));
 
